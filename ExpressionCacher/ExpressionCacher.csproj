@@ -5,6 +5,9 @@
         <LangVersion>default</LangVersion>
         <Nullable>enable</Nullable>
         <TargetFrameworks>net472;net48;netcoreapp3.1;netstandard2.0</TargetFrameworks>
+        <Company>Denis Burlacu</Company>
+        <Authors>Denis Burlacu</Authors>
+        <AssemblyVersion>1.0</AssemblyVersion>
+        <FileVersion>1.0</FileVersion>
     </PropertyGroup>
-
 </Project>

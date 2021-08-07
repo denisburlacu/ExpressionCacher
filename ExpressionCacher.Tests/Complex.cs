@@ -25,6 +25,20 @@ namespace ExpressionCacher.Tests
         }
 
         [TestCase]
+        public void Assert_Same_Properties_Per_Type_Should_Have_Same_Hashcode()
+        {
+            var expressions1 = PrepareExpressions<EntityA>()
+                               .Select(ExpressionHasher.GetHashCode)
+                               .ToList();
+
+            var expressions2 = PrepareExpressions<EntityA>()
+                               .Select(ExpressionHasher.GetHashCode)
+                               .ToList();
+
+            CollectionAssert.AreEqual(expressions1, expressions2);
+        }
+
+        [TestCase]
         public void Assert_Per_Type()
         {
             var expressionsA = PrepareExpressions<EntityA>()
