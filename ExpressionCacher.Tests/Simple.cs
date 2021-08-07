@@ -9,7 +9,7 @@ namespace ExpressionCacher.Tests
         [Test]
         public void Test1()
         {
-            Expression<Func<Product, string?>> expression = product => product.Name;
+            Expression<Func<Product, string>> expression = ex => ex.Name;
 
             var product = new Product()
                           {
@@ -25,6 +25,6 @@ namespace ExpressionCacher.Tests
     public class Product
     {
         public int Id { get; set; }
-        public string? Name { get; set; }
+        public string Name { get; set; }
     }
 }

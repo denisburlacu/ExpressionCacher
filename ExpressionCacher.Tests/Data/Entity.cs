@@ -5,7 +5,7 @@
         public int Int { get; set; }
         public int? IntNullable { get; set; }
         public string String { get; set; }
-        public string? StringNullable { get; set; }
+        public string StringNullable { get; set; }
         public bool Boolean { get; set; }
         public bool? BooleanNullable { get; set; }
         public long Long { get; set; }
@@ -13,7 +13,7 @@
         public Status Status { get; set; }
         public char Char { get; set; }
         public char? CharNullable { get; set; }
-        public SubEntity? A { get; set; }
+        public SubEntity A { get; set; }
 
         #region Nested classes
 

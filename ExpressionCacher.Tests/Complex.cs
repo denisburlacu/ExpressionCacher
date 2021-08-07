@@ -1,5 +1,4 @@
-﻿#nullable enable
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -82,7 +81,7 @@ namespace ExpressionCacher.Tests
 
             yield return e5;
 
-            Expression<Func<TEntity, string?>> e6 = a => a.StringNullable;
+            Expression<Func<TEntity, string>> e6 = a => a.StringNullable;
 
             yield return e6;
 
