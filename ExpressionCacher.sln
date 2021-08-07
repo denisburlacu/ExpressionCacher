@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionCacher.Tests", "ExpressionCacher.Tests\ExpressionCacher.Tests.csproj", "{69A560A1-AD00-4009-9ED5-07F3ABC1FCF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionCacher", "ExpressionCacher\ExpressionCacher.csproj", "{0A1263E2-15A8-4E30-A5F5-ABE6C77C7264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionCacher.Benchmark", "ExpressionCacher.Benchmark\ExpressionCacher.Benchmark.csproj", "{1B58E0D1-B776-49BF-83AA-64B060F672A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69A560A1-AD00-4009-9ED5-07F3ABC1FCF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A560A1-AD00-4009-9ED5-07F3ABC1FCF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A560A1-AD00-4009-9ED5-07F3ABC1FCF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A560A1-AD00-4009-9ED5-07F3ABC1FCF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A1263E2-15A8-4E30-A5F5-ABE6C77C7264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1263E2-15A8-4E30-A5F5-ABE6C77C7264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1263E2-15A8-4E30-A5F5-ABE6C77C7264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1263E2-15A8-4E30-A5F5-ABE6C77C7264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B58E0D1-B776-49BF-83AA-64B060F672A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B58E0D1-B776-49BF-83AA-64B060F672A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B58E0D1-B776-49BF-83AA-64B060F672A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B58E0D1-B776-49BF-83AA-64B060F672A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

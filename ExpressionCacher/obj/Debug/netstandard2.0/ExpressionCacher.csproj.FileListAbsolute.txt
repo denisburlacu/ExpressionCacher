@@ -1,0 +1,9 @@
+D:\Projects\ExpressionCacher\ExpressionCacher\bin\Debug\netstandard2.0\ExpressionCacher.deps.json
+D:\Projects\ExpressionCacher\ExpressionCacher\bin\Debug\netstandard2.0\ExpressionCacher.dll
+D:\Projects\ExpressionCacher\ExpressionCacher\bin\Debug\netstandard2.0\ExpressionCacher.pdb
+D:\Projects\ExpressionCacher\ExpressionCacher\obj\Debug\netstandard2.0\ExpressionCacher.csproj.AssemblyReference.cache
+D:\Projects\ExpressionCacher\ExpressionCacher\obj\Debug\netstandard2.0\ExpressionCacher.AssemblyInfoInputs.cache
+D:\Projects\ExpressionCacher\ExpressionCacher\obj\Debug\netstandard2.0\ExpressionCacher.AssemblyInfo.cs
+D:\Projects\ExpressionCacher\ExpressionCacher\obj\Debug\netstandard2.0\ExpressionCacher.csproj.CoreCompileInputs.cache
+D:\Projects\ExpressionCacher\ExpressionCacher\obj\Debug\netstandard2.0\ExpressionCacher.dll
+D:\Projects\ExpressionCacher\ExpressionCacher\obj\Debug\netstandard2.0\ExpressionCacher.pdb
