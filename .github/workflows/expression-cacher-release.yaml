@@ -1,4 +1,4 @@
-name: NetLicensing C# Client - Release
+name: Expression Cacher Release
 
 on:
   workflow_run:
