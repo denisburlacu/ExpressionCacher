@@ -14,6 +14,8 @@ Optimization
 
 Please be aware that almost all of the optimization done by the CLR is done in the JIT step, not from compiling C# source code. This optimization will also be done when compiling the IL code from your lambda delegate to machine code.
 
+-----------------
+
 Intel Core i7-8700 CPU 3.20GHz (Coffee Lake), 1 CPU, 12 logical and 6 physical cores
 .NET SDK=5.0.300
   [Host]     : .NET 5.0.6 (5.0.621.22011), X64 RyuJIT
