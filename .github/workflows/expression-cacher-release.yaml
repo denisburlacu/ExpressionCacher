@@ -2,7 +2,7 @@ name: NetLicensing C# Client - Release
 
 on:
   workflow_run:
-    workflows: ["NetLicensing C# Client - CI"]
+    workflows: ["Build & Test"]
     branches: [ master ]
     types:
       - completed
