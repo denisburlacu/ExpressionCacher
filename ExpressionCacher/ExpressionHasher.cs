@@ -59,7 +59,7 @@ namespace ExpressionCacher
 
                         var declaringType = member.DeclaringType;
 
-                        if (declaringType != null && declaringType.AssemblyQualifiedName != null)
+                        if (declaringType is { AssemblyQualifiedName: { } })
                             componentHash = (componentHash * 397) ^ declaringType.AssemblyQualifiedName.GetHashCode();
                     }
                     else
