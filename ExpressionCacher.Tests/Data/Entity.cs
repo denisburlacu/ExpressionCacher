@@ -13,7 +13,7 @@
         public Status Status { get; set; }
         public char Char { get; set; }
         public char? CharNullable { get; set; }
-        public SubEntity A { get; set; }
+        public SubEntity? A { get; set; }
 
         #region Nested classes
 

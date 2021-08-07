@@ -12,7 +12,7 @@ namespace ExpressionCacher
         {
             var cacheKey = ExpressionHasher.GetHashCode(expression);
 
-            return Cache.GetOrAdd(cacheKey, exp => expression.Compile()) as Func<TIn, TOut> ?? throw new InvalidOperationException();
+            return Cache.GetOrAdd(cacheKey, exp => expression.Compile()) as Func<TIn, TOut> ?? expression.Compile();
         }
     }
 }
