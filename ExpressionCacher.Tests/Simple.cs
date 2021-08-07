@@ -6,11 +6,6 @@ namespace ExpressionCacher.Tests
 {
     public class Tests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [Test]
         public void Test1()
         {
@@ -21,11 +16,9 @@ namespace ExpressionCacher.Tests
                               Id = 1,
                               Name = "32"
                           };
-            
+
             Assert.AreEqual(product.Name, expression.Compile()(product));
             Assert.AreEqual(product.Name, expression.ToFunc()(product));
-            
-            Assert.Pass();
         }
     }
 

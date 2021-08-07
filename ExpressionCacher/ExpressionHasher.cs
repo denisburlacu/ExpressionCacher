@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Linq.Expressions;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 
+[assembly: InternalsVisibleTo("ExpressionCacher.Tests")]
 namespace ExpressionCacher
 {
     internal static class ExpressionHasher
