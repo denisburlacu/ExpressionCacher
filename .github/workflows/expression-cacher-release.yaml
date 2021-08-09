@@ -24,7 +24,6 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Build solution and generate NuGet package
       run: |  
-        cd ExpressionChecker
         dotnet pack -c Release -o out  
 
     - name: Push generated package to GitHub registry
